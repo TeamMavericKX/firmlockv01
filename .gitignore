@@ -1,0 +1,26 @@
+# --- Python / Backend ---
+backend/venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/hardware/__pycache__/
+.env
+*.db
+
+# --- Node / Frontend ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# --- IDEs / System ---
+.vscode/
+.idea/
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Arch / Build leftovers ---
+*.swp
+*~
