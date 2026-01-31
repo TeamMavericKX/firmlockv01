@@ -19,27 +19,27 @@ This is a **complete, working implementation** of the FIRM-LOCK attestation syst
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                         FIRM-LOCK SYSTEM                                 │
+│                         FIRM-LOCK SYSTEM                                │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
-│  ┌──────────────┐      WebSocket       ┌─────────────────────────────┐ │
-│  │   React      │◀────────────────────▶│      FastAPI Backend        │ │
-│  │  Dashboard   │      HTTP API        │                             │ │
-│  │              │                      │  • Attestation Engine         │ │
-│  │  • Real-time │                      │  • Device Registry            │ │
-│  │  • PCR viz   │                      │  • Challenge/Response         │ │
-│  │  • Controls  │                      │  • WebSocket Manager          │ │
-│  └──────────────┘                      └──────────────┬──────────────┘ │
+│  ┌──────────────┐      WebSocket       ┌─────────────────────────────┐  │
+│  │   React      │◀────────────────────▶│      FastAPI Backend        │  │
+│  │  Dashboard   │      HTTP API        │                             │  │
+│  │              │                      │  • Attestation Engine       │  │
+│  │  • Real-time │                      │  • Device Registry          │  │
+│  │  • PCR viz   │                      │  • Challenge/Response       │  │
+│  │  • Controls  │                      │  • WebSocket Manager        │  │
+│  └──────────────┘                      └──────────────┬──────────────┘  │
 │                                                       │                 │
 │                                                       │ Serial/USB      │
 │                                                       ▼                 │
-│                                         ┌─────────────────────────────┐│
-│                                         │   Hardware Interface        ││
-│                                         │                             ││
-│                                         │  • STM32 (Cortex-M33)       ││
-│                                         │  • ATECC608A Secure Element ││
-│                                         │  • LoRa/BLE/USB Comms       ││
-│                                         └─────────────────────────────┘│
+│                                         ┌─────────────────────────────┐ │
+│                                         │   Hardware Interface        │ │
+│                                         │                             │ │
+│                                         │  • STM32 (Cortex-M33)       │ │
+│                                         │  • ATECC608A Secure Element │ │
+│                                         │  • LoRa/BLE/USB Comms       │ │
+│                                         └─────────────────────────────┘ │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -58,7 +58,7 @@ This is a **complete, working implementation** of the FIRM-LOCK attestation syst
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourteam/firm-lock.git
+git clone https://github.com/TeamMavericKX/firmlockv01.git
 cd firm-lock
 
 # Setup backend
@@ -169,8 +169,9 @@ PA4 (GPIO) ─────────────── NSS
 
 ### Firmware
 
-The STM32 firmware is in a separate repository:
-[github.com/yourteam/firmlock-firmware](https://github.com/yourteam/firmlock-firmware)
+The STM32 firmware and entire project deck is in a separate repository:
+[STM32x --beta](https://github.com/TeamMavericKX/InnerveX.git)
+[Docs](https://codeberg.org/princetheprogrammerbtw/Frim-LockX.git)
 
 ---
 
@@ -302,9 +303,8 @@ MIT License - See [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- Team: [yourteam@firmlock.io](mailto:yourteam@firmlock.io)
-- Twitter: [@firmlock](https://twitter.com/firmlock)
-- GitHub: [github.com/yourteam/firm-lock](https://github.com/yourteam/firm-lock)
+- Team: [team.m4v3rick@gmail.com](mailto:team.m4v3rick@gmail.com)
+- GitHub: [Team Maverick](https://github.com/TeamMavericKX/firmlockv01.git)
 
 ---
 
